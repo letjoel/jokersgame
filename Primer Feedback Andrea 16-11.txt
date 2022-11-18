@@ -9,4 +9,12 @@ HINCAPIE EN ANIMACIONES (un click, on scroll libreria)
 COMO EXPERIENCIA DE USUARIO 
 - que haya coherencia en las animaciones
 - de cada una se desprenden tareas. Plasmarlas.
-- 
+-
+
+
+que la maquina elija al suyo random, vos elejis a tu jugador, y juega uno contra otro
+si va ganando raul 
+	que el dado se tira con un hover en movil y desk
++ se ha de tirar dos veces, una yo y otra la maquina
++
++probar SASS dice raul q lo podemos usar en la medida q nos vaya bien.
