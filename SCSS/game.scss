@@ -1,0 +1,39 @@
+//============= SASS Variables font-family
+$font-permanentMarker: Permanent Marker;
+$font-didactGothic: Didact Gothic;
+$font-nightCore: NightCore;
+
+//============= SASS Variables Theme colors
+$gray: #7C8685;
+$graylight: #AAACA1;
+$redorange: #E3311D;
+$brown: #362E2D;
+$black: #050507;
+
+body {
+    background-image: url('/Assets/images/gamepagebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 100vh;
+
+}
+
+// ============= Breakpoint Mobile
+@media (max-width: 599px) {
+
+    body {
+        background-image: url('/Assets/images/gamepagebackground.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 80%;
+        min-height: 100vh;
+
+    }
+}
+
+// ============= Breakpoint Medium
+@media (min-width: 600px) {}
+
+// ============= Breakpoint Large
+@media (min-width: 1200px) {}

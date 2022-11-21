@@ -1,1 +1,17 @@
-/*# sourceMappingURL=game.css.map */
+body {
+  background-image: url("/Assets/images/gamepagebackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
+}
+
+@media (max-width: 599px) {
+  body {
+    background-image: url("/Assets/images/gamepagebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    min-height: 100vh;
+  }
+}/*# sourceMappingURL=game.css.map */
