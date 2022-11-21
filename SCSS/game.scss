@@ -37,3 +37,23 @@ body {
 
 // ============= Breakpoint Large
 @media (min-width: 1200px) {}
+
+.main__container main__third{
+    background-color: aqua;
+ color: white;   
+}
+
+.main__third {
+    font-family: $font-permanentMarker;
+    color: white;
+}
+button{
+    font-family: $font-permanentMarker;
+    height: 63.42px;
+    width: 154.2px;
+    background: url(/Assets/images/sign.svg) no-repeat; 
+    padding: 40px;
+    
+    
+}
+

@@ -14,4 +14,21 @@ body {
     background-position: 80%;
     min-height: 100vh;
   }
+}
+.main__container main__third {
+  background-color: aqua;
+  color: white;
+}
+
+.main__third {
+  font-family: Permanent Marker;
+  color: white;
+}
+
+button {
+  font-family: Permanent Marker;
+  height: 63.42px;
+  width: 154.2px;
+  background: url(/Assets/images/sign.svg) no-repeat;
+  padding: 40px;
 }/*# sourceMappingURL=game.css.map */
