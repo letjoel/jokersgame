@@ -23,16 +23,15 @@ $black: #050507;
     height: 90px;
     display: flex;
     align-items: center;
+    position: relative;
+    font-size: 20px;
 }
 
-.player-card__image {
-    position: relative;
-}
 
 .player-card__image__avatar {
     position: absolute;
-    top: 26px;
-    left: 43px;
+    top: 13px;
+    left: 35px;
     height: 70px;
 }
 

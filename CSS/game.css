@@ -15,14 +15,49 @@ body {
     min-height: 100vh;
   }
 }
-.main__container main__third {
-  background-color: aqua;
-  color: white;
+@media (min-width: 600px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+}
+@media (min-width: 1200px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+}
+.main__container {
+  border: #362e2d 3px solid;
+  background-color: rgb(31, 31, 31);
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
 }
 
 .main__third {
   font-family: Permanent Marker;
   color: white;
+  margin-top: 3%;
+  padding: 3%;
+  justify-content: center;
+}
+
+#playing-characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 83px;
+}
+#playing-characters p {
+  font-size: 36px;
+}
+
+#dices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
 }
 
 button {
