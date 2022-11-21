@@ -47,7 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 83px;
+  gap: 130px;
 }
 #playing-characters p {
   font-size: 36px;
@@ -66,4 +66,18 @@ button {
   width: 154.2px;
   background: url(/Assets/images/sign.svg) no-repeat;
   padding: 40px;
+  justify-content: center;
+}
+
+#boton-roll-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+#non-playing-characters {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=game.css.map */
