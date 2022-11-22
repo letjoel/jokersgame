@@ -1,21 +1,30 @@
+// ============= Fonts
+@font-face {
+  font-family: "NightCore";
+  src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
 //============= SASS Variables font-family
 $font-permanentMarker: Permanent Marker;
 $font-didactGothic: Didact Gothic;
 $font-nightCore: NightCore;
 
-button {
+.boton-roll-dice__button {
+  // font-family: $font-permanentMarker;
   background: none;
   border: 0;
   color: inherit;
-  background-image: url(/Assets/images/sign.svg);
+  background-image: url('/Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120px 200px;
   height: 63px;
   width: 154px;
-}
-  
-p {
-    font-family:$font-permanentMarker
-  }
 
+  p {
+    font-family: $font-permanentMarker
+  }
+}

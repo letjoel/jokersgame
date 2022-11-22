@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/game.css">
     <link rel="stylesheet" href="/css/button.css">
 
     <script defer src="/JS/navmobile.js"></script>
-=======
+
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/game.css">
     <link rel="stylesheet" href="CSS/card.css">
     <script defer src="JS/navmobile.js"></script>
->>>>>>> 3644e66152607f781b810b4f4749fba7c7069232
     <title>Jokers Game</title>
 </head>
 
@@ -52,76 +50,75 @@
     <main>
         <div class="main__container">
             <div class="main__first"></div>
-<<<<<<< HEAD
-            <div class="main__second">
-                <button class="button"><p>Enter your name</p></button>
+            <!-- <div class="main__second">
+                <button class="button">
+                    <p>Enter your name</p>
+                </button>
                 <input type="text" class="formName" placeholder="Tu nombre aqui">
 
-            </div>
+            </div> -->
             <div class="main__third"></div>
             <div class="main__fourth"></div>
-=======
-            <div class="main__second"></div>
-            <div class="main__third">
-
-                <section id="playing-characters">
+            <section id="playing-characters">
                 <div class="player-card">
                     <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
                     <img class="player-card__image__avatar" src="/Assets/images/playerclown.svg" alt="Player1">
                     <p class="player-card__name">Player's name</p>
                 </div>
-                                        
+
                 <p id="versus">VS</p>
 
                 <div class="player-card">
                     <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
                     <img class="player-card__image__avatar" src="/Assets/images/coder1.svg" alt="Player1">
                     <p class="player-card__name">Arber</p>
-                </section>
-              
-        <!--dados para reemplazar por el de Joel-->    
-                <section id="dices">
+            </section>
+
+            <!--dados para reemplazar por el de Joel-->
+            <section id="dices">
                 <img src="Assets/images/Dice-in-white-color-on-transparent-background-PNG 2dice.svg" alt="dice">
-                
+
                 <img src="Assets/images/Dice-in-white-color-on-transparent-background-PNG 2dice.svg" alt="dice">
             </section>
 
-                <div id="boton-roll-dice">
-                <button>ROLL DICE</button>
-                </div>
-                
-                <section id="non-playing-characters">
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder3.svg" alt="Player1">
-                        <p class="player-card__name">Joel</p>
-                        <img src="/Assets/images/playerkill.svg" alt="player-killed" id="death-player">
-                    </div>
-                    
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder2.svg" alt="Player1">
-                        <p class="player-card__name">Denis</p>
-                        </div>
-
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder4.svg" alt="Player1">
-                        <p class="player-card__name">El Ema</p>
-                        </div>
-
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder1.svg" alt="Player1">
-                        <p class="player-card__name">Manolito</p>
-                        </div>
-                    </section>
-
-
+            <div id="boton-roll-dice">
+                <button class="boton-roll-dice__button">
+                    <p>Roll dice!</p>
+                </button>
             </div>
-            <div class="main__fourth">
-            <!--Denis-->  
-                <section id="results">
+
+            <section id="non-playing-characters">
+                <div class="player-card">
+                    <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+                    <img class="player-card__image__avatar" src="/Assets/images/coder3.svg" alt="Player1">
+                    <p class="player-card__name">Joel</p>
+                    <img src="/Assets/images/playerkill.svg" alt="player-killed" id="death-player">
+                </div>
+
+                <div class="player-card">
+                    <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+                    <img class="player-card__image__avatar" src="/Assets/images/coder2.svg" alt="Player1">
+                    <p class="player-card__name">Denis</p>
+                </div>
+
+                <div class="player-card">
+                    <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+                    <img class="player-card__image__avatar" src="/Assets/images/coder4.svg" alt="Player1">
+                    <p class="player-card__name">El Ema</p>
+                </div>
+
+                <div class="player-card">
+                    <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+                    <img class="player-card__image__avatar" src="/Assets/images/coder1.svg" alt="Player1">
+                    <p class="player-card__name">Manolito</p>
+                </div>
+            </section>
+
+
+        </div>
+        <div class="main__fourth">
+            <!-- Denis-->
+            <!-- <section id="results">
                     <div class="result_pos">                                               
                         <p class="result_pos">YOU WIN</p>
                     </div>
@@ -135,10 +132,9 @@
                     <div>
                         <button>PLAY AGAIN</button>
                     </div>
-                </section>
-            </div>
-            <!--Denis-->
->>>>>>> 3644e66152607f781b810b4f4749fba7c7069232
+                </section> -->
+            <!--Denis -->
+        </div>
         </div>
 
     </main>
