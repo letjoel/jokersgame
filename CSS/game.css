@@ -1,0 +1,132 @@
+body {
+  background-image: url("/Assets/images/gamepagebackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
+}
+
+@media (max-width: 599px) {
+  body {
+    background-image: url("/Assets/images/gamepagebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    min-height: 100vh;
+  }
+  .main__first__input {
+    padding: 5px;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main__first__input {
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.main__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main__container {
+  border: #362e2d 3px solid;
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  height: 651px;
+  width: 100%;
+}
+
+.main__third {
+  font-family: Permanent Marker;
+  color: white;
+  padding: 4%;
+  justify-content: center;
+}
+
+#playing-characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+#playing-characters p {
+  font-size: 36px;
+  color: white;
+}
+
+#dices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+}
+
+#boton-roll-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+#non-playing-characters {
+  display: flex;
+  justify-content: center;
+}
+
+#death-player {
+  position: absolute;
+}
+
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+#button_playAgain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result_pos {
+  font-family: Permanent Marker;
+  color: white;
+  font-size: 30px;
+}
+
+.result_neg {
+  font-family: Permanent Marker;
+  color: white;
+  font-size: 30px;
+  display: none;
+}/*# sourceMappingURL=game.css.map */
