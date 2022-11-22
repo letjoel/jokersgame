@@ -27,6 +27,15 @@ body {
     margin-right: 100px;
   }
 }
+.audio {
+  display: flex;
+  justify-content: right;
+  height: 50px;
+  width: 50px;
+  background: none;
+  border: 0;
+}
+
 @media (min-width: 600px) {
   .main__index {
     display: flex;

@@ -4,36 +4,200 @@ $font-didactGothic: Didact Gothic;
 $font-nightCore: NightCore;
 
 //============= SASS Variables Theme colors
-$gray: #7C8685;
-$graylight: #AAACA1;
-$redorange: #E3311D;
-$brown: #362E2D;
+$gray: #7c8685;
+$graylight: #aaaca1;
+$redorange: #e3311d;
+$brown: #362e2d;
 $black: #050507;
 
 body {
-    background-image: url('/Assets/images/gamepagebackground.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    min-height: 100vh;
-
+  background-image: url("/Assets/images/gamepagebackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
 }
 
 // ============= Breakpoint Mobile
 @media (max-width: 599px) {
+  body {
+    background-image: url("/Assets/images/gamepagebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    min-height: 100vh;
+  }
 
-    body {
-        background-image: url('/Assets/images/gamepagebackground.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 80%;
-        min-height: 100vh;
-
-    }
+  .main__first__input {
+    padding: 5px;
+    text-align: center;
+  }
 }
 
+
+
+
+
 // ============= Breakpoint Medium
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .main__first__input {
+    padding: 10px;
+    text-align: center;
+  }
+}
 
 // ============= Breakpoint Large
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+  }
+}
+
+// ============= Fase 1
+.main__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+//=============== Fase 3
+.main__container {
+  border: $brown 3px solid;
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  height: 651px;
+  width: 100%;
+
+
+}
+
+.main__third {
+  font-family: $font-permanentMarker;
+  color: white;
+  padding: 4%;
+  justify-content: center;
+}
+
+#playing-characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+
+  p {
+    font-size: 36px;
+    color: white;
+  }
+}
+
+#dices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+}
+
+
+#boton-roll-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+#non-playing-characters {
+  display: flex;
+  justify-content: center;
+}
+
+#death-player {
+  position: absolute;
+}
+
+// //=============== Fase 3
+// .main__container {
+//   border: $brown 3px solid;
+//   background-color: rgb(31, 31, 31);
+//   border-radius: 20px;
+//   background: rgba(31, 31, 31, 0.3);
+//   margin-top: 3%;
+//   margin-bottom: 5%;
+// }
+
+// .main__third {
+//   font-family: $font-permanentMarker;
+//   color: white;
+//   padding: 4%;
+//   justify-content: center;
+// }
+
+// #playing-characters {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 130px;
+
+//   p {
+//     font-size: 36px;
+//     font-family: $font-permanentMarker;
+//   }
+// }
+
+// #dices {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 147px;
+// }
+
+
+
+
+// #non-playing-characters {
+//   display: flex;
+//   justify-content: center;
+//   padding-bottom: 70px;
+// }
+
+// #death-player {
+//   position: absolute;
+// }
+
+//========= Denis 
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button_playAgain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

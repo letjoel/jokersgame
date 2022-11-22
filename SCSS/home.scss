@@ -47,6 +47,15 @@ body {
 
   }
 }
+.audio {
+  display:flex;
+  justify-content: right;
+  height: 50px;
+  width: 50px;
+  background:none;
+  border:0;
+  
+}
 
 // ========= BP Medium
 @media (min-width: 600px) {
@@ -75,6 +84,7 @@ body {
 
   }
 }
+
 
 // ========= BP Large
 @media (min-width: 1200px) {
