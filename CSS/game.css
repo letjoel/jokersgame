@@ -15,10 +15,94 @@ body {
     min-height: 100vh;
   }
 }
+<<<<<<< HEAD
 .main__second {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 651px;
   height: 1439px;
+=======
+@media (min-width: 600px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+}
+@media (min-width: 1200px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+}
+.main__container {
+  border: #362e2d 3px solid;
+  background-color: rgb(31, 31, 31);
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.main__third {
+  font-family: Permanent Marker;
+  color: white;
+  padding: 4%;
+  justify-content: center;
+}
+
+#playing-characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+#playing-characters p {
+  font-size: 36px;
+}
+
+#dices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+}
+
+button {
+  font-family: Permanent Marker;
+  height: 63.42px;
+  width: 154.2px;
+  background: url(/Assets/images/sign.svg) no-repeat;
+  padding: 40px;
+  justify-content: center;
+}
+
+#boton-roll-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+#non-playing-characters {
+  display: flex;
+  justify-content: center;
+}
+
+#death-player {
+  position: absolute;
+}/*# sourceMappingURL=game.css.map */
+
+/*----Denis CSS------*/
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button_playAgain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 3644e66152607f781b810b4f4749fba7c7069232
 }
