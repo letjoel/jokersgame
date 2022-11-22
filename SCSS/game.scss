@@ -31,6 +31,13 @@ body {
 
     }
 }
+.main__second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 651px;
+    height: 1439px;
+}
 
 // ============= Breakpoint Medium
 @media (min-width: 600px) {}
