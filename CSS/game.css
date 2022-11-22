@@ -85,3 +85,15 @@ button {
 #death-player {
   position: absolute;
 }/*# sourceMappingURL=game.css.map */
+
+/*----Denis CSS------*/
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button_playAgain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
