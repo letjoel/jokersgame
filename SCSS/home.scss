@@ -1,0 +1,114 @@
+//Only home.html
+
+//============= SASS Variables font-family
+$font-permanentMarker: Permanent Marker;
+$font-didactGothic: Didact Gothic;
+$font-nightCore: NightCore;
+
+//============= SASS Variables Theme colors
+$gray: #7C8685;
+$graylight: #AAACA1;
+$redorange: #E3311D;
+$brown: #362E2D;
+$black: #050507;
+
+body {
+  background-image: url('/Assets/images/backgroundhomepage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
+
+}
+
+// ========= BP Mobile
+@media (max-width: 599px) {
+  .main__index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .main__h2 {
+    text-align: center;
+    font-family: $font-nightCore;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: white;
+  }
+
+  .main__arrow {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 100px;
+
+
+  }
+}
+.audio {
+  display:flex;
+  justify-content: right;
+  height: 50px;
+  width: 50px;
+  background:none;
+  border:0;
+  
+}
+
+// ========= BP Medium
+@media (min-width: 600px) {
+
+  .main__index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .main__h2 {
+    text-align: center;
+    font-family: $font-nightCore;
+    font-size: 3rem;
+    font-weight: normal;
+    color: white;
+  }
+
+  .main__arrow {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 100px;
+
+
+  }
+}
+
+
+// ========= BP Large
+@media (min-width: 1200px) {
+  .main__index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .main__h2 {
+    text-align: center;
+    font-family: $font-nightCore;
+    font-size: 3rem;
+    font-weight: normal;
+    color: white;
+  }
+
+  .main__arrow {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 200px;
+
+
+  }
+}
