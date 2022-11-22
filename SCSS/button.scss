@@ -23,8 +23,13 @@ $font-nightCore: NightCore;
   background-size: 120px 200px;
   height: 63px;
   width: 154px;
+  scale: 1.5;
+  margin-bottom: 30px;
+
 
   p {
-    font-family: $font-permanentMarker
+    font-family: $font-permanentMarker;
+    font-size: x-small;
+    rotate: -2.88deg;
   }
 }

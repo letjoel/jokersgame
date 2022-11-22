@@ -14,7 +14,11 @@
   background-size: 120px 200px;
   height: 63px;
   width: 154px;
+  scale: 1.5;
+  margin-bottom: 30px;
 }
 .boton-roll-dice__button p {
   font-family: Permanent Marker;
+  font-size: x-small;
+  rotate: -2.88deg;
 }/*# sourceMappingURL=button.css.map */
