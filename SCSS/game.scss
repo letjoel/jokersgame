@@ -72,6 +72,10 @@ body {
 
 
   }
+
+
+
+
 }
 
 // ============= Fase 1
@@ -194,10 +198,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
 }
 
 #button_playAgain {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.result_pos {
+  font-family: $font-permanentMarker;
+  color: white;
+  font-size: 30px;
+}
+
+.result_neg {
+  font-family: $font-permanentMarker;
+  color: white;
+  font-size: 30px;
+  display: none;
 }
