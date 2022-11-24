@@ -32,6 +32,24 @@ body {
     padding: 5px;
     text-align: center;
   }
+
+  .main__third {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  #dices {
+    gap: 30px;
+  }
 }
 
 

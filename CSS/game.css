@@ -18,6 +18,20 @@ body {
     padding: 5px;
     text-align: center;
   }
+  .main__third {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
+  }
+  #playing-characters p {
+    font-size: 15px;
+  }
+  #dices {
+    gap: 30px;
+  }
 }
 @media (min-width: 600px) {
   .nav__desktop {
@@ -115,4 +129,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}/*# sourceMappingURL=game.css.map */
