@@ -137,6 +137,19 @@ body {
   height: 30px;
 }
 
+.main__second-b__play {
+  margin-left: 10px;
+  margin-top: 20px;
+  background-image: url("/Assets/images/playArrow.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+}
+
 .main__third {
   font-family: Permanent Marker;
   color: white;
