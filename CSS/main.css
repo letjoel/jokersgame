@@ -92,7 +92,7 @@ footer {
     border: none;
     cursor: pointer;
     width: 30px;
-    height: 30px;
+    height: 27px;
     right: 20px;
     top: 20px;
   }
@@ -231,4 +231,4 @@ footer {
   .header__logo {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
