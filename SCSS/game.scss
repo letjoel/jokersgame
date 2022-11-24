@@ -50,6 +50,24 @@ body {
   #dices {
     gap: 30px;
   }
+
+  //fase 2b
+
+  // .main__second-b {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin: 50px;
+  // }
+
+  .main__second-b__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    margin-top: 60px;
+
+  }
 }
 
 
@@ -74,6 +92,8 @@ body {
     padding: 10px;
     text-align: center;
   }
+
+
 }
 
 // ============= Breakpoint Large
@@ -92,6 +112,17 @@ body {
   }
 }
 
+.main__container {
+  border: $brown 3px solid;
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 100%;
+
+
+}
+
 // ============= Fase 1
 .main__first {
   display: flex;
@@ -101,18 +132,69 @@ body {
   height: 100%;
 }
 
-//=============== Fase 3
-.main__container {
-  border: $brown 3px solid;
-  border-radius: 20px;
-  background: rgba(31, 31, 31, 0.3);
-  margin-top: 3%;
-  margin-bottom: 5%;
-  height: 651px;
-  width: 100%;
+//============= Fase 2-b
+.main__second-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
 
+
+.main__second-b__create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.boton-roll-dice__button__container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main__second-b__create input {
+  padding: 10px;
+}
+
+.main__second-b__add {
+  margin-left: 10px;
+  background: url('/Assets/images/x.svg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  transform: scale(3);
+  width: 20px;
+  height: 20px;
 
 }
+
+.main__second-b__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 70px;
+  width: 50%;
+  margin-top: 60px;
+
+}
+
+.player-card__remove {
+  margin-left: 10px;
+  background: url('/Assets/images/remove.svg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+}
+
+//=============== Fase 3
+
 
 .main__third {
   font-family: $font-permanentMarker;
