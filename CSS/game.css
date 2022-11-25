@@ -18,25 +18,32 @@ body {
     padding: 5px;
     text-align: center;
   }
-  .main__third {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #playing-characters {
-    gap: 10px;
-    justify-content: space-around;
-  }
-  #playing-characters p {
-    font-size: 15px;
-  }
-  #dices {
-    gap: 30px;
-  }
   .main__second-b__list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px 70px;
     margin-top: 60px;
+  }
+  #playing-characters {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 12px;
+  }
+  #playing-characters p {
+    font-size: 17px;
+  }
+  #dices {
+    display: flex;
+    justify-content: center;
+  }
+  #non-playing-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #non-playing-characters p {
+    font-size: 17px;
   }
 }
 @media (min-width: 600px) {
@@ -175,6 +182,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 147px;
+  padding: 5px;
 }
 
 #boton-roll-dice {
