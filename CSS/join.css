@@ -1,0 +1,75 @@
+.join__container {
+    border: #362e2d 3px solid;
+    border-radius: 20px;
+    background: rgba(31, 31, 31, 0.3);
+    margin-top: 3%;
+    margin-bottom: 5%;
+    height: 651px;
+    width: 100%;
+}
+
+
+
+.join {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 100px;
+
+}
+
+.chose {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 80px;
+    font-family: "NightCore";
+    src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+    font-size: 28px;
+    background-image: url("/Assets/images/sign.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@media screen and (max-width: 991px) {
+    .join__container {
+        max-width: 728px;
+    }
+
+    .join {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .join__container {
+        padding: 60px 15px;
+    }
+
+    .join {
+        margin-bottom: -40px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .player-card {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .join__container {
+        max-width: none;
+    }
+
+    .join {
+        margin-bottom: 24px;
+    }
+}
