@@ -16,3 +16,8 @@ export function screams(){
     scream2.play()
 }
 
+export function knock(){
+    const knocks=new Audio("/Assets/fx/nock.wav")
+    knocks.play()
+}
+

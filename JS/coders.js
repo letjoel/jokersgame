@@ -1,3 +1,6 @@
+import {knifeSlice,knock,playerDead,rollDice,screams}from "./audio.js"
+
+
 //Variables
 let exportArray = [];
 let codersArray = [];
@@ -54,7 +57,7 @@ function addCoder() {
     `;
     codersArray.push(div);
     renderHTML();
-
+    knock();
     //add Listener
     div.addEventListener('click', function(e) {
         idSelection = e.target.parentElement.parentElement.id;
