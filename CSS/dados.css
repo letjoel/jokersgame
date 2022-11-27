@@ -79,4 +79,8 @@
   color: white;
   font-size: x-large;
   font-family: Permanent Marker;
+}
+
+.p5Canvas:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=dados.css.map */

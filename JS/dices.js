@@ -18,6 +18,7 @@ buttonDrawOk.addEventListener('click',resumeDraw);
 buttonWinOk.addEventListener('click',resumeWin);
 
 
+
 //============== Canvas 1_movement
 let one_movement = function( sketch ) {
 
@@ -78,8 +79,8 @@ let one = function( sketch ) {
   };
 
   sketch.draw = function() {
-
-    sketch.noLoop();
+    sketch.orbitControl(2,2,0);
+    // sketch.noLoop();
 
     //1
     sketch.rotateX(2);
@@ -119,7 +120,8 @@ let two = function( sketch ) {
   };
 
   sketch.draw = function() {
-        sketch.noLoop();
+    sketch.orbitControl(2,2,0);
+        // sketch.noLoop();
 
         sketch.rotateX(3.3);
         sketch.rotateY(3);
@@ -156,7 +158,8 @@ let three = function( sketch ) {
   };
 
   sketch.draw = function() {
-        sketch.noLoop();
+    sketch.orbitControl(2,2,0);
+        // sketch.noLoop();
 
         //3
         sketch.rotateX(4);
@@ -194,7 +197,8 @@ let four = function( sketch ) {
   };
 
   sketch.draw = function() {
-        sketch.noLoop();
+    sketch.orbitControl(2,2,0);
+        // sketch.noLoop();
 
         //4
         sketch.rotateX(3.5);
@@ -231,7 +235,8 @@ let five = function( sketch ) {
   };
 
   sketch.draw = function() {
-        sketch.noLoop();
+    sketch.orbitControl(2,2,0);    
+    // sketch.noLoop();
 
           //5
           sketch.rotateX(3.5);
@@ -268,7 +273,8 @@ let six = function( sketch ) {
   };
 
   sketch.draw = function() {
-        sketch.noLoop();
+    sketch.orbitControl(2,2,0);
+    // sketch.noLoop();
 
         //6
         sketch.rotateX(1.7);
@@ -279,8 +285,9 @@ let six = function( sketch ) {
         sketch.scale(0.4);
         sketch.normalMaterial();
         sketch.model(dice1obj);
-     };
 
+        
+     };
 
 };
 
@@ -348,7 +355,7 @@ let one2 = function( sketch ) {
   };
 
   sketch.draw = function() {
-
+    
     sketch.noLoop();
 
     //1
@@ -389,6 +396,7 @@ let two2 = function( sketch ) {
   };
 
   sketch.draw = function() {
+    
         sketch.noLoop();
 
         sketch.rotateX(3.3);
@@ -426,6 +434,7 @@ let three2 = function( sketch ) {
   };
 
   sketch.draw = function() {
+    
         sketch.noLoop();
 
         //3
@@ -464,6 +473,7 @@ let four2 = function( sketch ) {
   };
 
   sketch.draw = function() {
+    
         sketch.noLoop();
 
         //4
@@ -501,6 +511,7 @@ let five2 = function( sketch ) {
   };
 
   sketch.draw = function() {
+    
         sketch.noLoop();
 
           //5
@@ -538,6 +549,7 @@ let six2 = function( sketch ) {
   };
 
   sketch.draw = function() {
+    
         sketch.noLoop();
 
         //6
