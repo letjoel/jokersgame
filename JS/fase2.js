@@ -24,12 +24,14 @@ function renderHTMLenemies(newCodersArray) {
         <p class="player-card__name">${name}</p>
         `;
     document.querySelector(".join").appendChild(div);
+    div.className = "player-card";
+    document.querySelector(".enemy-chosen").appendChild(div);
     div.addEventListener("click", turnOnPlayer);
   });
 }
 renderHTMLenemies(newCodersArray);
 
-let selectedPlayer = -1;
+export let selectedPlayer = -1;
 function turnOnPlayer(e) {
   selectedPlayer = e.target.parentElement.id;
   highlightSelectedPlayer();
