@@ -1,0 +1,95 @@
+// ============= Fonts
+@font-face {
+    font-family: "NightCore";
+    src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+//============= SASS Variables font-family
+$font-permanentMarker: Permanent Marker;
+$font-didactGothic: Didact Gothic;
+$font-nightCore: NightCore;
+
+#dices__container {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dice__container1 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dices__container1 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#dice__container2 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dices__container2 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#dices__draw {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    z-index: 1;
+    background-color: #000;
+    color: white;
+    font-size: x-large;
+    font-family: Permanent Marker;
+}
+
+#dices__youWin {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    z-index: 1;
+    background-color: #000;
+    color: white;
+    font-size: x-large;
+    font-family: Permanent Marker;
+}
+
+.p5Canvas:hover {
+    cursor: pointer;
+}

@@ -33,7 +33,25 @@ body {
     text-align: center;
   }
 
-  
+  .main__third {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  #dices {
+    gap: 30px;
+
+  }
+
   //fase 2b
   
   // .main__second-b {
@@ -352,4 +370,9 @@ body {
   .join {
     margin-bottom: 24px;
   }
+}
+
+.highlightSelected:hover {
+  cursor:pointer;
+  scale: 1.3;
 }

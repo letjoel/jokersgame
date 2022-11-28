@@ -21,4 +21,57 @@
   font-family: Permanent Marker;
   font-size: x-small;
   rotate: -2.88deg;
+}
+
+.boton-roll-dice__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.boton-draw-ok__button {
+  background: none;
+  border: 0;
+  color: inherit;
+  background-image: url("/Assets/images/sign.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px 200px;
+  height: 63px;
+  width: 154px;
+  scale: 1.5;
+  margin-bottom: 30px;
+}
+.boton-draw-ok__button p {
+  font-family: Permanent Marker;
+  font-size: x-small;
+  rotate: -2.88deg;
+}
+
+.boton-draw-ok__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.boton-win-ok__button {
+  background: none;
+  border: 0;
+  color: inherit;
+  background-image: url("/Assets/images/sign.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px 200px;
+  height: 63px;
+  width: 154px;
+  scale: 1.5;
+  margin-bottom: 30px;
+}
+.boton-win-ok__button p {
+  font-family: Permanent Marker;
+  font-size: x-small;
+  rotate: -2.88deg;
+}
+
+.boton-win-ok__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }/*# sourceMappingURL=button.css.map */
