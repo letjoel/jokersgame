@@ -18,9 +18,7 @@
 
     <script defer src="JS/p5.js"></script>
     <script defer src="JS/navmobile.js"></script>
-    <script defer src="JS/coders.js" type="module"></script>
-    <script defer src="JS/dices.js" type="module"></script>
-    <script defer src="JS/fase1.js" type="module"></script>
+    <script defer src="JS/fase4.js" type="module"></script>
 
 
 
@@ -33,7 +31,7 @@
         <nav class="nav__desktop">
             <ul class="nav__desktop__ul">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="game.html">Game</a></li>
+                <li><a href="game1.html">Game</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -43,7 +41,7 @@
             <nav>
                 <ul class="nav__mobile__ul">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="game.html">Game</a></li>
+                    <li><a href="game1.html">Game</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -61,58 +59,6 @@
 
 
 
-
-            <div class="main__first">
-                <button class="boton-roll-dice__button">
-                    <p>Enter your name</p>
-                </button>
-                <form>
-                    <input type="text" class="main__first__input" placeholder="your name here">
-                    <button type="submit" class="main__first__add"></button>
-                </form>
-            </div>
-
-
-
-
-            <div class="main__second">
-                <div class="join__container">
-                    <div class="chose">
-                        <a href="game.html" class="join-game">Chose Enemy</a>
-                    </div>
-
-                    <section class="join">
-
-                    </section>
-                </div>
-            </div>
-
-
-
-
-            <div class="main__second-b">
-                <section class="main__second-b__create">
-
-                    <button class="boton-roll-dice__button">
-                        <p>Create your list</p>
-                    </button>
-                    <div class="boton-roll-dice__button__container">
-                        <input class="inputName" type="text" placeholder="enter enemy's name">
-                        <button class="main__second-b__add"></button>
-                    </div>
-                    <div class="main__second-b__play__container">
-
-                    </div>
-                </section>
-                <section class="main__second-b__list">
-
-
-                </section>
-            </div>
-
-
-
-
             <div class="main__third">
                 <section id="playing-characters">
                     <div class="player-card">
@@ -121,16 +67,19 @@
                         <p class="player-card__name">Player's name</p>
                     </div>
                     <p id="versus">VS</p>
-
-                    <div class="enemy-chosen">
-
+                    <div class="player-card">
+                        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
+                        <img id="enemyAvatar" class="player-card__image__avatar" src="Assets/images/playerclown.svg"
+                            alt="Player1">
+                        <p id="enemyName" class="player-card__name">Enemy's name</p>
                     </div>
+
                 </section>
                 <section id="dices">
                     <div id="dices__container">
                         <div id="dices__youWin">
                             You killed a coder!
-                            <button class="boton-win-ok__button">
+                            <button id="buttonOkWin" class="boton-win-ok__button">
                                 <p>Ok</p>
                             </button>
                             <img src="Assets/animations/clownloose3.gif" alt="">
@@ -187,34 +136,20 @@
                         </div>
                     </div>
                 </section>
-                <div id="boton-roll-dice">
-                    <button class="boton-roll-dice__button">
-                        <p>Roll dice!</p>
-                    </button>
-                </div>
-                <section id="non-playing-characters">
-                    <div class="enemy-chosen">
-                    </div>
-                </section>
-            </div>
-
-
-
-            <div class="main__fourth">
-                <section id="results">
-                    <div class="result_pos">
-                        <p class="result_pos">YOU WIN</p>
-                    </div>
-                    <div class="result_neg">
-                        <p class="result_neg">YOU LOOSE</p>
-                    </div>
-                    <div>
+                <div class="boton-roll-dice__container">
+                    <div id="boton-roll-dice">
                         <button class="boton-roll-dice__button">
-                            <p>PLAY AGAIN</p>
+                            <p>Roll dice!</p>
                         </button>
                     </div>
-                </section>
+                    <section id="non-playing-characters">
+
+                    </section>
+                </div>
             </div>
+
+
+
 
         </div>
 
