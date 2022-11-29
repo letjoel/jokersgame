@@ -65,7 +65,7 @@
                     </button>
                     <div class="boton-roll-dice__button__container">
                         <div class="boton-roll-dice__button__container__2">
-                            <input class="inputName" type="text" placeholder="enter enemy's name">
+                            <input class="inputName" type="text" placeholder="Enter your enemy name">
                             <button class="main__second-b__add"></button>
                         </div>
                         <button class="main__second-b__arrow"></button>
@@ -80,10 +80,13 @@
                 </section>
             </div>
     </main>
-    <footer>
-        <audio loop src="Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
-        <p>&#169; CodeKillers 2022</p>
-    </footer>
+</main>
+<audio id="backgroundMusic" loop src="/Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
+<button onclick="pauseMusic()" class="audio_pause"></button>
+<figure><img class="sound_icon" src="/Assets/images/sound.png"></figure>
+<footer>
+    <p>&#169; CodeKillers 2022</p>
+</footer>
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+import{rollDice,knifeSlice,playerDead,screams}from "./audio.js";
 //Variables
 let newCodersArray = [];
 
@@ -791,7 +792,7 @@ function roll(){
     enemyResult = generateRandomNumber();
     console.log("jugador: " + (playerResult+1));
     console.log("enemigo: " + (enemyResult+1));
-
+    rollDice();
     
     switch(enemyResult){
         case 0: 
@@ -824,7 +825,7 @@ function roll(){
     }
 
     setTimeout(()=>{
-
+      rollDice();
         switch(playerResult){
         case 0: 
             renderMoving1();
@@ -862,6 +863,7 @@ function roll(){
     if(playerResult > enemyResult){
         //win method, save it in localStorage
         setTimeout(()=>{
+          knifeSlice();
             dices__win.style.display = 'flex';
             rollButton.style.visibility = 'visible';
             //do visible CHOOSE PLAYER DIV
@@ -901,7 +903,7 @@ function resumeWin(){
         if(newCodersArray[i].id == selectedEnemy){
             newCodersArray.splice(i, 1);
             localStorage.setItem('codersList', JSON.stringify(newCodersArray));
-        }
+        } 
     }
     //Si no quedan coders en la lista ganaste
     if (newCodersArray.length == 0) {
