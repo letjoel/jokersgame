@@ -16,7 +16,6 @@ $font-nightCore: NightCore;
   // font-family: $font-permanentMarker;
   background: none;
   border: 0;
-  color: inherit;
   background-image: url('/Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -97,4 +96,27 @@ $font-nightCore: NightCore;
   cursor: pointer;
   opacity: .7;
 
+}
+
+.boton-title {
+  // font-family: $font-permanentMarker;
+  background: none;
+  border: 0;
+  color: inherit;
+  background-image: url('/Assets/images/sign.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px 200px;
+  height: 63px;
+  width: 154px;
+  scale: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  p {
+    font-family: $font-permanentMarker;
+    font-size: x-small;
+    rotate: -2.88deg;
+  }
 }

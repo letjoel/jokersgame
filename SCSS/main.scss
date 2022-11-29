@@ -34,7 +34,13 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+}
 
+a:active {
+    text-decoration: none;
+}
 
 header a {
     color: $redorange;
@@ -81,6 +87,7 @@ footer {
 
 
     .nav__aside {
+        z-index: 100;
         display: none;
         position: absolute;
         top: 70px;
@@ -132,7 +139,7 @@ footer {
         position: absolute;
         background: url('/Assets/images/necktie.svg');
         border: none;
-        background-repeat:no-repeat;
+        background-repeat: no-repeat;
         cursor: pointer;
         width: 30px;
         height: 30px;

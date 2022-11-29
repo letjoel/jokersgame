@@ -5,9 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/game.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="CSS/card.css">
+
+
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/game.css">
+    <link rel="stylesheet" href="CSS/card.css">
+
     <script defer src="JS/navmobile.js"></script>
+    <script defer src="JS/fase2.js" type="module"></script>
+
+
+
     <title>Jokers Game</title>
 </head>
 
@@ -41,16 +53,35 @@
         </div>
     </header>
     <main>
-        <div class="main__index">
-            <a href="game1.html">
-                <h2 class="main__h2">Click here to try your luck</h2>
-            </a>
-            <img class="main__arrow" src="Assets/images/arrow.svg" alt="arrow">
-        </div>
+        <div class="main__container">
+
+
+
+            <div class="main__second-b">
+                <section class="main__second-b__create">
+
+                    <button class="boton-roll-dice__button">
+                        <p>Create your list</p>
+                    </button>
+                    <div class="boton-roll-dice__button__container">
+                        <div class="boton-roll-dice__button__container__2">
+                            <input class="inputName" type="text" placeholder="enter enemy's name">
+                            <button class="main__second-b__add"></button>
+                        </div>
+                        <button class="main__second-b__arrow"></button>
+                    </div>
+                    <div class="main__second-b__play__container">
+
+                    </div>
+                </section>
+                <section class="main__second-b__list">
+
+
+                </section>
+            </div>
     </main>
-    <button class="audio"></button>
     <footer>
-        <audio loop src="Assets/music/lobbybackgroundmusic.mp3" autoplay></audio>
+        <audio loop src="Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
         <p>&#169; CodeKillers 2022</p>
     </footer>
 </body>

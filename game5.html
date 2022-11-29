@@ -5,9 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/game.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="CSS/card.css">
+
+
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/game.css">
+    <link rel="stylesheet" href="CSS/card.css">
+
     <script defer src="JS/navmobile.js"></script>
+
+
     <title>Jokers Game</title>
 </head>
 
@@ -41,16 +51,31 @@
         </div>
     </header>
     <main>
-        <div class="main__index">
-            <a href="game1.html">
-                <h2 class="main__h2">Click here to try your luck</h2>
-            </a>
-            <img class="main__arrow" src="Assets/images/arrow.svg" alt="arrow">
+        <div class="main__container">
+
+
+
+
+            <div class="main__fourth">
+                <section id="results">
+                    <div class="result_pos">
+                        <p class="result_pos">YOU WIN</p>
+                    </div>
+                    <div>
+                        <a href="game1.html">
+                            <button class="boton-roll-dice__button">
+                                <p>PLAY AGAIN</p>
+                            </button></a>
+                    </div>
+                </section>
+            </div>
+
         </div>
+
+
     </main>
-    <button class="audio"></button>
     <footer>
-        <audio loop src="Assets/music/lobbybackgroundmusic.mp3" autoplay></audio>
+        <audio loop src="Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
         <p>&#169; CodeKillers 2022</p>
     </footer>
 </body>

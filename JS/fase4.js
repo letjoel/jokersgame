@@ -1,3 +1,46 @@
+//Variables
+let newCodersArray = [];
+
+//Recuperamos datos de localStorage
+newCodersArray = JSON.parse(localStorage.getItem("codersList")) || [];
+let selectedEnemy = localStorage.getItem("selectedPlayer");
+let playerName = localStorage.getItem("playerName");
+
+//Selectores
+let enemyP = document.getElementById("enemyName");
+let enemyImg = document.querySelector('#enemyAvatar');
+let playerNameP = document.querySelector('.player-card__name');
+
+//Funciones
+function renderHTML4(newCodersArray) {
+    
+    playerNameP.textContent = playerName;
+
+  newCodersArray.forEach((element) => {
+    if (element.id == selectedEnemy){  
+        enemyP.textContent = element.name;
+        enemyImg.src = element.avatar;
+    } else {
+    let name = element.name;
+    let avatar = element.avatar;
+    let div = document.createElement("div");
+    div.className = "player-card";
+    div.id = element.id;
+    div.innerHTML = `
+        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image__avatar" src="${avatar}">
+        <p class="player-card__name">${name}</p>
+        `;
+    document.querySelector("#non-playing-characters").appendChild(div);
+} });
+}
+
+//Llamamos funciones
+renderHTML4(newCodersArray);
+
+
+//============== DICES =============================
+
 
 //Global variables
 let rollspeed = 12;
@@ -44,7 +87,7 @@ let one_movement = function( sketch ) {
     //Essential
     sketch.background(0,50);
 
-    sketch.scale(0.4);
+    sketch.scale(0.5);
     sketch.normalMaterial();
     sketch.model(dice1obj);
 
@@ -88,7 +131,7 @@ let one = function( sketch ) {
     //Essential
     sketch.background(0,50);
 
-    sketch.scale(0.4);
+    sketch.scale(0.5);
     sketch.normalMaterial();
     sketch.model(dice1obj);
 
@@ -126,7 +169,7 @@ let two = function( sketch ) {
         sketch.rotateZ(-4.7);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -165,7 +208,7 @@ let three = function( sketch ) {
         sketch.rotateZ(-3.9);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -204,7 +247,7 @@ let four = function( sketch ) {
         sketch.rotateZ(-5);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -242,7 +285,7 @@ let five = function( sketch ) {
           sketch.rotateZ(-5);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -279,11 +322,13 @@ let six = function( sketch ) {
         sketch.rotateY(1);
         sketch.rotateZ(-1.6);
 
+      
+  
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
-
+    
         
      };
 
@@ -321,7 +366,7 @@ let two_movement = function( sketch ) {
     //Essential
     sketch.background(0,50);
 
-    sketch.scale(0.4);
+    sketch.scale(0.5);
     sketch.normalMaterial();
     sketch.model(dice1obj);
 
@@ -364,7 +409,7 @@ let one2 = function( sketch ) {
     //Essential
     sketch.background(0,50);
 
-    sketch.scale(0.4);
+    sketch.scale(0.5);
     sketch.normalMaterial();
     sketch.model(dice1obj);
 
@@ -402,7 +447,7 @@ let two2 = function( sketch ) {
         sketch.rotateZ(-4.7);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -441,7 +486,7 @@ let three2 = function( sketch ) {
         sketch.rotateZ(-3.9);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -480,7 +525,7 @@ let four2 = function( sketch ) {
         sketch.rotateZ(-5);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -518,7 +563,7 @@ let five2 = function( sketch ) {
           sketch.rotateZ(-5);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -556,7 +601,7 @@ let six2 = function( sketch ) {
         sketch.rotateZ(-1.6);
 
         sketch.background(0,50);
-        sketch.scale(0.4);
+        sketch.scale(0.5);
         sketch.normalMaterial();
         sketch.model(dice1obj);
      };
@@ -587,6 +632,7 @@ let container2_movement = document.querySelector('#dice__container2__movement');
 
 let dices__draw = document.querySelector('#dices__draw');
 let dices__win = document.querySelector('#dices__youWin');
+
 
 
 //Button
@@ -823,6 +869,12 @@ function roll(){
         console.log("Player won 1vs1");
     }else if(playerResult < enemyResult){
         //loose method
+
+        setTimeout(()=>{
+            window.location.href = "game6.html";
+        },14000);
+
+        
         console.log("Player loose 1vs1");
     }else if(playerResult == enemyResult){
         //draw,repeat method
@@ -840,13 +892,35 @@ function roll(){
 
 function resumeDraw(){
       dices__draw.style.display = 'none';
+      
 };
 function resumeWin(){
+
+  //Actualiza la lista
+    for(let i = newCodersArray.length - 1; i >= 0; i--){
+        if(newCodersArray[i].id == selectedEnemy){
+            newCodersArray.splice(i, 1);
+            localStorage.setItem('codersList', JSON.stringify(newCodersArray));
+        }
+    }
+    //Si no quedan coders en la lista ganaste
+    if (newCodersArray.length == 0) {
+        window.location.href = "game5.html";
+    }else{
+        //si quedan coders vuelve para elegir otro
       dices__win.style.display = 'none';
+      window.location.href = "game3.html";
+    }
+
+
+
 };
 
  function generateRandomNumber(){
         return Math.floor(Math.random() * 6);
     };
 
+function goChoosePlayer(){
 
+    
+};
