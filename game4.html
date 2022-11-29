@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/game.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="CSS/card.css">
+
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/game.css">
+    <link rel="stylesheet" href="CSS/card.css">
+    <link rel="stylesheet" href="CSS/dados.css">
+
+    <script defer src="JS/p5.js"></script>
+    <script defer src="JS/navmobile.js"></script>
+    <script defer src="JS/fase4.js" type="module"></script>
+
+
+
+    <title>Jokers Game</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav__desktop">
+            <ul class="nav__desktop__ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game1.html">Game</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav__mobile">
+        </div>
+        <div class="nav__aside">
+            <nav>
+                <ul class="nav__mobile__ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game1.html">Game</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <button id="header__hamburger"></button>
+        <img class="header__logo" src="Assets/images/logo.gif" alt="logo">
+        <div class="header__title__container">
+            <img class="header__title__logo" src="Assets/images/logo.gif" alt="logo">
+            <img class="header__title" src="Assets/images/title.png" alt="Jokers Game">
+        </div>
+    </header>
+    <main>
+        <div class="main__container">
+
+
+
+            <div class="main__third">
+                <section id="playing-characters">
+                    <div class="player-card">
+                        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
+                        <img class="player-card__image__avatar" src="Assets/images/playerclown.svg" alt="Player1">
+                        <p class="player-card__name">Player's name</p>
+                    </div>
+                    <p id="versus">VS</p>
+                    <div class="player-card">
+                        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
+                        <img id="enemyAvatar" class="player-card__image__avatar" src="Assets/images/playerclown.svg"
+                            alt="Player1">
+                        <p id="enemyName" class="player-card__name">Enemy's name</p>
+                    </div>
+
+                </section>
+                <section id="dices">
+                    <div id="dices__container">
+                        <div id="dices__youWin">
+                            You killed a coder!
+                            <button id="buttonOkWin" class="boton-win-ok__button">
+                                <p>Ok</p>
+                            </button>
+                            <img src="Assets/animations/clownloose3.gif" alt="">
+                        </div>
+                        <div id="dices__draw">Draw, try again!
+                            <button class="boton-draw-ok__button">
+                                <p>Ok</p>
+                            </button>
+                        </div>
+                        <div id="dices__container1">
+                            <div id="dice__container1_1" class="dice-space">
+
+                            </div>
+                            <div id="dice__container1_2" class="dice-space"> </div>
+                            <div id="dice__container1_3" class="dice-space">
+
+                            </div>
+                            <div id="dice__container1_4" class="dice-space">
+
+                            </div>
+                            <div id="dice__container1_5" class="dice-space">
+
+                            </div>
+                            <div id="dice__container1_6" class="dice-space">
+
+                            </div>
+                            <div id="dice__container1__movement" class="dice-space">
+
+                            </div>
+                        </div>
+                        <div id="dices__container2">
+
+                            <div id="dice__container2_1" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2_2" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2_3" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2_4" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2_5" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2_6" class="dice-space">
+
+                            </div>
+                            <div id="dice__container2__movement" class="dice-space">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="boton-roll-dice__container">
+                    <div id="boton-roll-dice">
+                        <button class="boton-roll-dice__button">
+                            <p>Roll dice!</p>
+                        </button>
+                    </div>
+                    <section id="non-playing-characters">
+
+                    </section>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </main>
+    <footer>
+        <audio loop src="Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
+        <p>&#169; CodeKillers 2022</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+POST PRIMER SPRINT:
+- crear area con instrucciones del juego.
+- la hamburgueas esta fea. Poner otra cosa.
+- entra pa seleccionar de una ;lista de coders al q quiere sacrificar. falta funcionalidad de tener lista de coders q se mantenga. Podemos hacer carrousel si no entra en pantalla pero q pueda ingresar todos los coders q Raul quiera.

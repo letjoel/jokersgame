@@ -1,0 +1,349 @@
+body {
+  background-image: url("../Assets/images/gamepagebackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
+}
+
+@media (max-width: 599px) {
+  body {
+    background-image: url("../Assets/images/gamepagebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    min-height: 100vh;
+  }
+  .main__first__input {
+    padding: 5px;
+    text-align: center;
+  }
+  .main__third {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
+  }
+  #playing-characters p {
+    font-size: 15px;
+  }
+  #dices {
+    gap: 30px;
+  }
+  .main__second-b__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+    margin-top: 60px;
+  }
+  #playing-characters {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 12px;
+  }
+  #playing-characters p {
+    font-size: 17px;
+  }
+  #dices {
+    display: flex;
+    justify-content: center;
+  }
+  #non-playing-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #non-playing-characters p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 600px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main__first__input {
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .nav__desktop {
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+  .main__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.main__container {
+  border: #362e2d 3px solid;
+  border-radius: 20px;
+  background: rgba(31, 31, 31, 0.3);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 100%;
+  min-height: 500px;
+}
+
+.main__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  height: 100%;
+}
+
+.main__second-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.main__second-b__create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.boton-roll-dice__button__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__second-b__create input {
+  padding: 10px;
+}
+
+.main__second-b__add {
+  margin-left: 10px;
+  background: url("../Assets/images/x.svg");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  transform: scale(3);
+  width: 20px;
+  height: 20px;
+}
+
+.main__second-b__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 70px;
+  width: 50%;
+  margin-top: 60px;
+}
+
+.player-card__remove {
+  margin-left: 10px;
+  background: url("Assets/images/remove.svg");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.main__second-b__play {
+  margin-left: 10px;
+  margin-top: 20px;
+  background-image: url("Assets/images/playArrow.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+}
+
+.main__third {
+  font-family: Permanent Marker;
+  color: white;
+  padding: 4%;
+  justify-content: center;
+}
+
+#playing-characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+#playing-characters p {
+  font-size: 36px;
+  color: white;
+}
+
+#dices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 147px;
+  padding: 5px;
+}
+
+#boton-roll-dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+#non-playing-characters {
+  display: flex;
+  justify-content: center;
+}
+
+#death-player {
+  position: absolute;
+}
+
+#results {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Permanent Marker;
+  color: white;
+}
+
+#button_playAgain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.join__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.chose {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 80px;
+  font-family: "NightCore";
+  src: url(../Assets/fonts/nightcore/Nightcore_Demo.ttf);
+  font-size: 28px;
+  background-image: url("../Assets/images/sign.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 991px) {
+  .join__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 728px;
+  }
+  .join {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 767px) {
+  .join__container {
+    padding: 60px 15px;
+  }
+  .join {
+    margin-bottom: -40px;
+    flex-wrap: wrap;
+  }
+  .player-card {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .join__container {
+    max-width: none;
+  }
+  .join {
+    margin-bottom: 24px;
+  }
+}
+.highlightSelected:hover {
+  cursor: pointer;
+  scale: 1.3;
+}
+
+.main__first__add {
+  margin-left: 10px;
+  background: url("../Assets/images/x.svg");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  transform: scale(3);
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.main__fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__second-b__arrow {
+  margin-top: 20px;
+  background: url("../Assets/images/playArrow.png");
+  width: 270px;
+  height: 20px;
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.boton-roll-dice__button__container__2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.result_neg {
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+.result_pos {
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+.boton-roll-dice__container {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=game.css.map */
