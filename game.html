@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/button.css">
     <link rel="stylesheet" href="CSS/card.css">
 
-    <script defer src="/JS/navmobile.js"></script>
+    <script defer src="JS/scripthome.js"></script>
 
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/game.css">
@@ -23,6 +23,7 @@
     <script defer src="JS/dices.js" type="module"></script>
     <script defer src="JS/fase2.js" type="module"></script>
     <script defer src="JS/fase3connect.js" type="module"></script>
+    <script defer src="JS/fase1connect.js" type="module"></script>
 
 
     <title>Jokers Game</title>
@@ -51,10 +52,10 @@
         </div>
         </div>
         <button id="header__hamburger"></button>
-        <img class="header__logo" src="/Assets/images/logo.gif" alt="logo">
+        <img class="header__logo" src="Assets/images/logo.gif" alt="logo">
         <div class="header__title__container">
-            <img class="header__title__logo" src="/Assets/images/logo.gif" alt="logo">
-            <img class="header__title" src="/Assets/images/title.png" alt="Jokers Game">
+            <img class="header__title__logo" src="Assets/images/logo.gif" alt="logo">
+            <img class="header__title" src="Assets/images/title.png" alt="Jokers Game">
         </div>
     </header>
     <main>
@@ -63,18 +64,20 @@
 
 
 
-            <!-- <div class="main__first">
-                <button class="boton-roll-dice__button">
-                    <p>Enter your name</p>
+         <!-- <div class="main__first">
+             <button class="boton-roll-dice__button">
+                 <p>Enter your name</p>
                 </button>
+                <form action="">    
                 <input type="text" class="main__first__input" placeholder="your name here">
-
+                <button type="submit" class="main__first__add"></button>
+            </form>
             </div> -->
 
 
 
-<!-- 
-             <div class="main__second">
+ 
+            <!--  <div class="main__second">
                 <div class="join__container">
                     <div class="chose">
                         <a href="game.html" class="join-game">Chose Enemy</a>
@@ -84,12 +87,12 @@
                         
                     </section>
                 </div>
-            </div> -->
+            </div>
+ -->
 
 
 
-
-            <!-- <div class="main__second-b">
+           <!--  <div class="main__second-b">
                 <section class="main__second-b__create">
 
                     <button class="boton-roll-dice__button">
@@ -107,7 +110,7 @@
 
 
                 </section>
-            </div> -->
+            </div>-->
 
 
 
@@ -115,8 +118,8 @@
             <div class="main__third">
                 <section id="playing-characters">
                     <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/playerclown.svg" alt="Player1">
+                        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
+                        <img class="player-card__image__avatar" src="Assets/images/playerclown.svg" alt="Player1">
                         <p class="player-card__name">Player's name</p>
                     </div>
                     <p id="versus">VS</p>
@@ -125,7 +128,7 @@
                    
                     </div>
                 </section>
-                <!-- <section id="dices">
+                <section id="dices">
 
                     <div id="dices__container">
                         <div id="dices__youWin">
@@ -142,48 +145,48 @@
                         </div>
 
                         <div id="dices__container1">
-                            <div id="dice__container1_1" class="dice-space"> -->
-                                <!-- aqui el dado 1 numero 1
+                            <div id="dice__container1_1" class="dice-space"> 
+                        
                             </div>
                             <div id="dice__container1_2" class="dice-space">                       </div>
-                            <div id="dice__container1_3" class="dice-space"> -->
-                                <!-- aqui el dado 1 numero 3 -->
+                            <div id="dice__container1_3" class="dice-space"> 
+                                
                             </div>
                             <div id="dice__container1_4" class="dice-space">
-                                <!-- aqui el dado 1 numero 4 -->
+                                
                             </div>
                             <div id="dice__container1_5" class="dice-space">
-                                <!-- aqui el dado 1 numero 5 -->
+                                
                             </div>
                             <div id="dice__container1_6" class="dice-space">
-                                <!-- aqui el dado 1 numero 6 -->
+                                
                             </div>
                             <div id="dice__container1__movement" class="dice-space">
-                                <!-- aqui el dado 1 en movimiento -->
+                                
                             </div>
                         </div>
                         <div id="dices__container2">
 
                             <div id="dice__container2_1" class="dice-space">
-                                <!-- aqui el dado 2 numero 1 -->
+                             
                             </div>
                             <div id="dice__container2_2" class="dice-space">
-                                <!-- aqui el dado 2 numero 2 -->
+                         
                             </div>
                             <div id="dice__container2_3" class="dice-space">
-                                <!-- aqui el dado 2 numero 3 -->
+                            
                             </div>
                             <div id="dice__container2_4" class="dice-space">
-                                <!-- aqui el dado 2 numero 4 -->
+                             
                             </div>
                             <div id="dice__container2_5" class="dice-space">
-                                <!-- aqui el dado 2 numero 5 -->
+                              
                             </div>
                             <div id="dice__container2_6" class="dice-space">
-                                <!-- aqui el dado 2 numero 6 -->
+                          
                             </div>
                             <div id="dice__container2__movement" class="dice-space">
-                                <!-- aqui el dado 2 en movimiento -->
+                           
                             </div>
                         </div>
                     </div>
@@ -195,27 +198,10 @@
                     </button>
                 </div>
                 <section id="non-playing-characters">
-                    <!-- <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder3.svg" alt="Player1">
-                        <p class="player-card__name">Joel</p>
-                        <img src="/Assets/images/playerkill.svg" alt="player-killed" id="death-player">
+                    <div class="enemy-chosen">
+
                     </div>
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder2.svg" alt="Player1">
-                        <p class="player-card__name">Denis</p>
-                    </div>
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder4.svg" alt="Player1">
-                        <p class="player-card__name">El Ema</p>
-                    </div>
-                    <div class="player-card">
-                        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
-                        <img class="player-card__image__avatar" src="/Assets/images/coder1.svg" alt="Player1">
-                        <p class="player-card__name">Manolito</p> -->
-                    </div>
+                    
                 </section>
             </div> -->
 
@@ -238,14 +224,14 @@
                         <button>PLAY AGAIN</button>
                     </div>
                 </section>
-            </div> -->
+            </div>
 
         </div>
 
 
     </main>
     <footer>
-        <audio loop src="/Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
+        <audio loop src="Assets/music/gamebackgroundmusic.mp3" autoplay></audio>
         <p>&#169; CodeKillers 2022</p>
     </footer>
 </body>

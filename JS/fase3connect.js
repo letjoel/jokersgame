@@ -1,4 +1,5 @@
-import letSele
+import {selectedPlayer}from "./fase2"
+
 let newCodersArray = [];
 
 newCodersArray = JSON.parse(localStorage.getItem("codersList")) || [];
@@ -7,7 +8,7 @@ newCodersArray = JSON.parse(localStorage.getItem("codersList")) || [];
 function renderHTMLenemies(newCodersArray) {
   newCodersArray.forEach((element) => {
     if (element.id == selectedPlayer){
-        pintar el jugador en playing
+        document.querySelector("playing-characters").appendChild(div);
     } else {
     let name = element.name;
     let avatar = element.avatar;
@@ -23,9 +24,3 @@ function renderHTMLenemies(newCodersArray) {
 } });
 }
 renderHTMLenemies(newCodersArray);
-
-/* let selectedPlayer = -1;
-function turnOnPlayer(e) {
-  selectedPlayer = e.target.parentElement.id; */
-  /* highlightSelectedPlayer(); */
-}
