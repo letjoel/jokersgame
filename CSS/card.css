@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 @font-face {
   font-family: "NightCore";
-  src: url("Assets/fonts/nightcore/Nightcore_Demo.ttf");
+  src: url("../Assets/fonts/nightcore/Nightcore_Demo.ttf");
 }
 .player-card {
   width: 160px;

@@ -1,14 +1,14 @@
-import {knifeSlice,knock,playerDead,rollDice,screams}from "audio.js"
+import {knifeSlice,knock,playerDead,rollDice,screams}from "./audio.js"
 
 
 //Variables
 let exportArray = [];
 let codersArray = [];
 let avatarsArray = [
-"Assets/images/coder1.svg",
-"Assets/images/coder2.svg",
-"Assets/images/coder3.svg",
-"Assets/images/coder4.svg",
+"../Assets/images/coder1.svg",
+"../Assets/images/coder2.svg",
+"../Assets/images/coder3.svg",
+"../Assets/images/coder4.svg",
     
 ];
 let newCoderName = "";
@@ -54,7 +54,7 @@ function addCoder() {
     div.id = idCounter;
     newCoderName = input.value;
     div.innerHTML = `
-        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image" src="../Assets/images/roudplayerbackground.svg" alt="card image">
         <img class="player-card__image__avatar" src="${avatarsArray[randomNumber]}">
         <p class="player-card__name">${newCoderName}</p>
         <div>
