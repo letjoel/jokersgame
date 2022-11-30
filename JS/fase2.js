@@ -5,10 +5,10 @@ import {knifeSlice,knock,playerDead,rollDice,screams}from "./audio.js"
 let exportArray = [];
 let codersArray = [];
 let avatarsArray = [
-"../Assets/images/coder1.svg",
-"../Assets/images/coder2.svg",
-"../Assets/images/coder3.svg",
-"../Assets/images/coder4.svg",
+"./Assets/images/coder1.svg",
+"./Assets/images/coder2.svg",
+"./Assets/images/coder3.svg",
+"./Assets/images/coder4.svg",
     
 ];
 let newCoderName = "";
