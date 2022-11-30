@@ -54,7 +54,7 @@ function addCoder() {
     div.id = idCounter;
     newCoderName = input.value;
     div.innerHTML = `
-        <img class="player-card__image" src="../Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image" src="./Assets/images/roudplayerbackground.svg" alt="card image">
         <img class="player-card__image__avatar" src="${avatarsArray[randomNumber]}">
         <p class="player-card__name">${newCoderName}</p>
         <div>
