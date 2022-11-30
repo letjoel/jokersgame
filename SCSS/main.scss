@@ -2,7 +2,7 @@
 // ============= Fonts
 @font-face {
     font-family: "NightCore";
-    src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+    src: url('../Assets/fonts/nightcore/Nightcore_Demo.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -137,7 +137,7 @@ footer {
     #header__hamburger {
         display: flex;
         position: absolute;
-        background: url('/Assets/images/necktie.svg');
+        background: url('../../Assets/images/necktie.svg');
         border: none;
         background-repeat: no-repeat;
         cursor: pointer;
@@ -177,8 +177,8 @@ footer {
     }
 
     .audio_pause {
-        scale:0.7;
-        }
+        scale: 0.7;
+    }
 
 
 }
@@ -335,14 +335,15 @@ footer {
 
 
 }
+
 .audio_pause {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background: url("/Assets/images/pausemusic.png");
+    background: url("../Assets/images/pausemusic.png");
     border: 0;
     color: inherit;
-    position:fixed;
+    position: fixed;
     bottom: 3%;
     left: 2%;
     height: 207px;
@@ -350,13 +351,15 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.audio_pause:hover{
-    cursor:pointer;
-    background: url("/Assets/images/pausemusicclick.jpg");
+
+.audio_pause:hover {
+    cursor: pointer;
+    background: url("../Assets/images/pausemusicclick.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
-.sound_icon{
+
+.sound_icon {
     height: 50px;
     width: 50px;
     filter: invert(1);
