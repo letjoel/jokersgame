@@ -176,7 +176,9 @@ footer {
         display: block;
     }
 
-
+    .audio_pause {
+        scale:0.7;
+        }
 
 
 }
@@ -332,4 +334,33 @@ footer {
     }
 
 
+}
+.audio_pause {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/Assets/images/pausemusic.png");
+    border: 0;
+    color: inherit;
+    position:fixed;
+    bottom: 3%;
+    left: 2%;
+    height: 207px;
+    width: 172px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.audio_pause:hover{
+    cursor:pointer;
+    background: url("/Assets/images/pausemusicclick.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sound_icon{
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+    position: fixed;
+    bottom: 65px;
+    left: 160px;
 }

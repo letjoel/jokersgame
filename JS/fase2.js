@@ -46,7 +46,7 @@ playArrow.addEventListener('click', ()=>{
 function addCoder() {
     let randomNumber = Math.floor(Math.random() *3);
     let idSelection = 0;
-
+    
 
     let div = document.createElement('div');
     div.className = "player-card";
