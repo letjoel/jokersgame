@@ -67,7 +67,7 @@ let one_movement = function( sketch ) {
   let dice1obj;
   
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -109,7 +109,7 @@ let one = function( sketch ) {
   
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -150,7 +150,7 @@ let two = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -188,7 +188,7 @@ let three = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -227,7 +227,7 @@ let four = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -265,7 +265,7 @@ let five = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -303,7 +303,7 @@ let six = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -346,7 +346,7 @@ let two_movement = function( sketch ) {
   let dice1obj;
   
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -387,7 +387,7 @@ let one2 = function( sketch ) {
   
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -428,7 +428,7 @@ let two2 = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -466,7 +466,7 @@ let three2 = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -505,7 +505,7 @@ let four2 = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -543,7 +543,7 @@ let five2 = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
@@ -581,7 +581,7 @@ let six2 = function( sketch ) {
   let dice1obj;
 
   sketch.preload = function() {
-    dice1obj = sketch.loadModel('/Assets/3d/dice.obj', true);
+    dice1obj = sketch.loadModel('Assets/3d/dice.obj', true);
 
   }
 
