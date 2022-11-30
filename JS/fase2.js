@@ -1,4 +1,4 @@
-import {knifeSlice,knock,playerDead,rollDice,screams}from "./audio.js"
+import {knifeSlice,knock,playerDead,rollDice,screams}from "audio.js"
 
 
 //Variables

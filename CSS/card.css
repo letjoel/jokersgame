@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 @font-face {
   font-family: "NightCore";
-  src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+  src: url("Assets/fonts/nightcore/Nightcore_Demo.ttf");
 }
 .player-card {
   width: 160px;
@@ -23,4 +23,4 @@
 .player-card__name {
   font-family: Permanent Marker;
   color: white;
-}
+}/*# sourceMappingURL=card.css.map */

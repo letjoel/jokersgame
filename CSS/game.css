@@ -1,5 +1,5 @@
 body {
-  background-image: url("../Assets/images/gamepagebackground.png");
+  background-image: url("Assets/images/gamepagebackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -8,7 +8,7 @@ body {
 
 @media (max-width: 599px) {
   body {
-    background-image: url("../Assets/images/gamepagebackground.png");
+    background-image: url("Assets/images/gamepagebackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80%;
@@ -134,7 +134,7 @@ body {
 
 .main__second-b__add {
   margin-left: 10px;
-  background: url("../Assets/images/x.svg");
+  background: url("Assets/images/x.svg");
   background-size: cover;
   border: none;
   cursor: pointer;
@@ -255,9 +255,9 @@ body {
   justify-content: space-around;
   padding: 80px;
   font-family: "NightCore";
-  src: url(../Assets/fonts/nightcore/Nightcore_Demo.ttf);
+  src: url("Assets/fonts/nightcore/Nightcore_Demo.ttf");
   font-size: 28px;
-  background-image: url("../Assets/images/sign.svg");
+  background-image: url("Assets/images/sign.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -271,6 +271,9 @@ body {
     max-width: 728px;
   }
   .join {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
@@ -280,6 +283,8 @@ body {
   }
   .join {
     margin-bottom: -40px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .player-card {
@@ -302,7 +307,7 @@ body {
 
 .main__first__add {
   margin-left: 10px;
-  background: url("../Assets/images/x.svg");
+  background: url("Assets/images/x.svg");
   background-size: cover;
   border: none;
   cursor: pointer;
@@ -320,7 +325,7 @@ body {
 
 .main__second-b__arrow {
   margin-top: 20px;
-  background: url("../Assets/images/playArrow.png");
+  background: url("Assets/images/playArrow.png");
   width: 270px;
   height: 20px;
   border: none;
@@ -346,4 +351,4 @@ body {
 .boton-roll-dice__container {
   display: flex;
   flex-direction: column;
-}
+}/*# sourceMappingURL=game.css.map */

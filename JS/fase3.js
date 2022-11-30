@@ -13,7 +13,7 @@ function renderHTMLenemies(newCodersArray) {
     div.className = "player-card highlightSelected";
     div.id = element.id;
     div.innerHTML = `
-        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
         <img class="player-card__image__avatar" src="${avatar}">
         <p class="player-card__name">${name}</p>
         `;

@@ -1,7 +1,7 @@
 // ============= Fonts
 @font-face {
   font-family: "NightCore";
-  src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+  src: url('Assets/fonts/nightcore/Nightcore_Demo.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -16,7 +16,7 @@ $font-nightCore: NightCore;
   // font-family: $font-permanentMarker;
   background: none;
   border: 0;
-  background-image: url('/Assets/images/sign.svg');
+  background-image: url('Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120px 200px;
@@ -45,7 +45,7 @@ $font-nightCore: NightCore;
   background: none;
   border: 0;
   color: inherit;
-  background-image: url('/Assets/images/sign.svg');
+  background-image: url('Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120px 200px;
@@ -74,7 +74,7 @@ $font-nightCore: NightCore;
   background: none;
   border: 0;
   color: inherit;
-  background-image: url('/Assets/images/sign.svg');
+  background-image: url('Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120px 200px;
@@ -103,7 +103,7 @@ $font-nightCore: NightCore;
   background: none;
   border: 0;
   color: inherit;
-  background-image: url('/Assets/images/sign.svg');
+  background-image: url('Assets/images/sign.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120px 200px;
