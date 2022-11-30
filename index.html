@@ -48,9 +48,11 @@
             <img class="main__arrow" src="Assets/images/arrow.svg" alt="arrow">
         </div>
     </main>
-    <button class="audio"></button>
+    <button onclick="pauseMusic()" class="audio_pause"></button>
+    <figure><img class="sound_icon" src="/Assets/images/sound.png"></figure>
+    <audio id="backgroundMusic" loop src="/Assets/music/lobbybackgroundmusic.mp3" autoplay></audio>
+    
     <footer>
-        <audio loop src="Assets/music/lobbybackgroundmusic.mp3" autoplay></audio>
         <p>&#169; CodeKillers 2022</p>
     </footer>
 </body>
