@@ -50,35 +50,37 @@ body {
   #dices {
     gap: 30px;
 
+ /*    .main__second-b__list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px 70px;
+      margin-top: 60px;
+      background-color: #aaaca1;
+    } */
   }
 
-
+ 
 
   //fase 2b
+  
+  .main__second-b {
+   display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 50px;
+   }
+    
 
-  // .main__second-b {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   margin: 50px;
-  // }
-
-  .main__second-b__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px 70px;
-    margin-top: 60px;
-
-  }
-
-  #playing-characters {
-    display: flex;
-    justify-content: stretch;
-    align-items: center;
-    gap: 12px;
-
-    p {
+    #playing-characters {
+      display: flex;
+      justify-content:stretch;
+      align-items: center;
+      gap: 12px;
+      p{
       font-size: 17px;
     }
   }
@@ -121,9 +123,15 @@ body {
     padding: 10px;
     text-align: center;
   }
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
 
+    p {
+      font-size: 15px;
+    }
+  }
 }
-
 // ============= Breakpoint Large
 @media (min-width: 1200px) {
   .nav__desktop {
@@ -137,6 +145,14 @@ body {
     justify-content: center;
 
 
+  }
+  #playing-characters {
+    gap: 10px;
+    justify-content: space-around;
+
+    p {
+      font-size: 15px;
+    }
   }
 }
 
