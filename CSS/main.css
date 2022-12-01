@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 @font-face {
   font-family: "NightCore";
-  src: url(/Assets/fonts/nightcore/Nightcore_Demo.ttf);
+  src: url("../Assets/fonts/nightcore/Nightcore_Demo.ttf");
 }
 * {
   box-sizing: border-box;
@@ -97,7 +97,7 @@ footer {
   #header__hamburger {
     display: flex;
     position: absolute;
-    background: url("/Assets/images/necktie.svg");
+    background: url("../../Assets/images/necktie.svg");
     border: none;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -249,7 +249,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/Assets/images/pausemusic.png");
+  background: url("../Assets/images/pausemusic.png");
   border: 0;
   color: inherit;
   position: fixed;
@@ -263,7 +263,7 @@ footer {
 
 .audio_pause:hover {
   cursor: pointer;
-  background: url("/Assets/images/pausemusicclick.jpg");
+  background: url("../Assets/images/pausemusicclick.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -275,4 +275,4 @@ footer {
   position: fixed;
   bottom: 65px;
   left: 160px;
-}
+}/*# sourceMappingURL=main.css.map */

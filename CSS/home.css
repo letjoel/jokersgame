@@ -1,5 +1,5 @@
 body {
-  background-image: url("/Assets/images/backgroundhomepage.jpg");
+  background-image: url("../Assets/images/backgroundhomepage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -77,4 +77,4 @@ body {
     margin-left: 20px;
     margin-right: 200px;
   }
-}
+}/*# sourceMappingURL=home.css.map */

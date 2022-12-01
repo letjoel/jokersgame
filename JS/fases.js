@@ -8,7 +8,7 @@ form1.addEventListener("submit", savePlayerName);
 function savePlayerName() {
   let playerName = document.querySelector(".main__first__input").value;
   localStorage.setItem("playerName", playerName);
-  window.location.href = "./game2.html";
+  window.location.href = "game2.html";
   console.log("holaaaaaa")
 
 }
@@ -27,7 +27,7 @@ function renderHTMLenemies(newCodersArray) {
     div.className = "player-card highlightSelected";
     div.id = element.id;
     div.innerHTML = `
-        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image" src="Assets/images/roudplayerbackground.svg" alt="card image">
         <img class="player-card__image__avatar" src="${avatar}">
         <p class="player-card__name">${name}</p>
         `;
@@ -64,7 +64,7 @@ function renderHTMLenemies2(newCodersArray) {
     div.className = "player-card";
     div.id = element.id;
     div.innerHTML = `
-        <img class="player-card__image" src="/Assets/images/roudplayerbackground.svg" alt="card image">
+        <img class="player-card__image" src="./Assets/images/roudplayerbackground.svg" alt="card image">
         <img class="player-card__image__avatar" src="${avatar}">
         <p class="player-card__name">${name}</p>
         `;
