@@ -59,27 +59,23 @@ body {
    }
     
 
-    #playing-characters {
-      display: flex;
-      justify-content:stretch;
-      align-items: center;
-      gap: 12px;
-      p{
-      font-size: 17px;
-    }
-  }
   .main__third {
+    max-width: 599px;
     display: flex;
     flex-wrap: wrap;
+    
   }
 
   #playing-characters {
-    gap: 10px !important;
+    gap: 12px !important;
     justify-content: center;
+    align-items: center;
     
     p {
       font-size: 20px !important;
       gap: 10px;
+      word-wrap: break-word !important;
+      white-space: nowrap;
     }
   }
 
