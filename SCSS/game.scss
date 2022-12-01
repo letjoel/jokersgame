@@ -34,7 +34,7 @@ body {
   }
 
 
- /*    .main__second-b__list {
+  /*    .main__second-b__list {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
@@ -44,33 +44,33 @@ body {
       margin-top: 60px;
       background-color: #aaaca1;
     } */
-  
 
- 
+
+
 
   //fase 2b
-  
+
   .main__second-b {
-   display: flex;
+    display: flex;
     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin: 50px;
-   }
-    
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
 
   .main__third {
     max-width: 599px;
     display: flex;
     flex-wrap: wrap;
-    
+
   }
 
   #playing-characters {
     gap: 12px !important;
     justify-content: center;
     align-items: center;
-    
+
     p {
       font-size: 20px !important;
       gap: 10px;
@@ -118,6 +118,7 @@ body {
     padding: 10px;
     text-align: center;
   }
+
   #playing-characters {
     gap: 10px;
     justify-content: space-around;
@@ -127,6 +128,7 @@ body {
     }
   }
 }
+
 // ============= Breakpoint Large
 @media (min-width: 1200px) {
   .nav__desktop {
@@ -141,6 +143,7 @@ body {
 
 
   }
+
   #playing-characters {
     gap: 10px;
     justify-content: space-around;
