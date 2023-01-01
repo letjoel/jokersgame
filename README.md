@@ -1,8 +1,7 @@
-# elRepo
+# Joker's Game
 
-Bienvenidos al proyecto de eliminacion aleatoria de coders!
-Este es un proyecto del equipo CodeKillers, conformado por Arber, Denis, Ema, Joel y Manu, en el marco del bootcamp de FactoriaF5.
-Todo el juego estta desarrrolado en HTML, CSS, Javascript, y utilizamos la libreria de SASS para los estilos, y p5.js para la creacion de los dados interactivos.
-Preparate para una emocionante y despiadada eliminacion uno a uno de los miembros de nuestro equipo.
-Si te atreves, agregate en la lista y prueba tu suerte!
-Muajajajaaaa
+The game is a wheel of doom with rolling dices.
+
+This project has been developed by the F5 Bootcamp coders: Arber, Denis, Ema, Joel and Manu. It has been forked and modified by Joel.
+
+Technologies: HTML, CSS, Javascript, SASS and p5.js.
