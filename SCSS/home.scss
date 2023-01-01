@@ -13,7 +13,7 @@ $brown: #362E2D;
 $black: #050507;
 
 body {
-  background-image: url('/Assets/images/backgroundhomepage.jpg');
+  background-image: url('../Assets/images/backgroundhomepage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -47,14 +47,15 @@ body {
 
   }
 }
+
 .audio {
-  display:flex;
+  display: flex;
   justify-content: right;
   height: 50px;
   width: 50px;
-  background:none;
-  border:0;
-  
+  background: none;
+  border: 0;
+
 }
 
 // ========= BP Medium
